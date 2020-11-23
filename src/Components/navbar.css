@@ -1,0 +1,42 @@
+.openNavButton {
+  display: none;
+  font-size: 27px;
+  margin-left: 10px;
+}
+
+.navUl {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.navLi {
+  list-style-type: none;
+}
+
+.NavLink {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .openNavButton {
+    display: block;
+  }
+
+  .navUl {
+    flex-direction: column;
+  }
+
+  .navUlHide {
+    display: none;
+  }
+
+  .navLi {
+    margin: 0;
+  }
+
+  .NavLink {
+    display: block;
+  }
+}

@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button:active,
+button:focus {
+  outline: 0;
+  border: none;
+  outline-style: none;
+  -moz-outline-style: none;
+}
