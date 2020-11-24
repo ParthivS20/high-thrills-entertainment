@@ -11,7 +11,6 @@ import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 
 import Home from "./Pages/Home";
-import Login from "./Pages/Login";
 import Register from "./Pages/Register";
 import Planner from "./Pages/Planner";
 import Profile from "./Pages/Profile";
@@ -30,7 +29,6 @@ export default function App() {
         <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/planner" component={Planner} />
           <Route exact path="/profile" component={Profile} />
